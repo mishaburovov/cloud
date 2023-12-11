@@ -1,0 +1,12 @@
+{
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "1488",
+        "database": "new_schema",
+        "port": "3306"
+      },
+
+    "serverPort" : 1025,
+    "secretKey": "ldfkgjhlsghlfjlekrgjldfjdfg"
+}

@@ -1,0 +1,37 @@
+
+.form__input:not(:first-child){
+    margin-top: 40px;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    position: relative;
+
+    color: rgb(37, 15, 34);
+    font-size: 30px;
+    font-family: 'Arial';
+    /* justify-content: center; */
+}
+
+.form__input input{
+    font-size: 30px;
+    
+    padding: 10px 18px;
+
+    background-color: rgb(243, 229, 255);
+
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.errors {
+    position: absolute;
+    left: 10px;
+    bottom: -24px;
+    color: rgba(255, 0, 0, 0.623);
+    font-size: 14px;
+}

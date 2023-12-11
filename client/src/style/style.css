@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button{
+    outline: none;
+    background-color: inherit;
+}
+
+.conteiner{
+    margin: auto;
+
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 20px;
+}
